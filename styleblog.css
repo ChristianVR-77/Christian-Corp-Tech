@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#background{
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media (min-aspect-ratio:2/3) and (min-width:800px){
+    #background{
+        max-width: 1200px;
+        gap: 2rem;
+        flex-direction: row;
+    }
+}
+@media all and (min-width:1000px){
+    html{
+        font-size: 18px;
+    }
+}
+@media all and (max-width:520px){
+    #content{
+        margin: 1.5rem;
+        padding: 0;
+    }
+    html{
+        font-size: 18px;
+    }
+}
+body{
+    font-family:'Crimson Pro';
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100%;
+    position: relative; z-index: -10000;
+}
+html{
+    height: 100%;
+}
+#content{
+    padding: 3rem 0 18rem 0;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+topic{
+    display: block;
+    font-family: 'Catamaran';
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #000;
+    padding-top: 0.02em;
+    hyphens: none;
+}
+topic.huge{
+    font-family: 'Catamaran';
+    font-size: 170%;
+    font-weight: bolder;
+    padding-top: 0.1em;
+    padding-bottom: 0.15em;
+}
+topic + p{
+    font-size: 115%;
+}
+p{
+    margin-bottom: 1em;
+    font-size: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background: #CBDCEB;
+    transition-property: background;
+    transition-duration: 0.2s;
+    padding: 1px 1px 1px 1px;
+    border-radius: 8px;
+}
+sig{
+    display: block;
+    text-align: right;
+    margin-bottom: 5em;
+    margin-right: 0.5rem;
+    font-size: 100%;
+}
+#footer{
+    display: block;
+    text-align: center;
+    margin-bottom: 5em;
+    margin-right: 0.5rem;
+    font-family: Catamaran;
+    font-size: 100%;
+}
