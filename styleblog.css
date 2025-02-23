@@ -23,7 +23,7 @@
 }
 @media all and (max-width:520px){
     #content{
-        margin: 1.5rem;
+        margin: 0.5rem;
         padding: 0;
     }
     html{
