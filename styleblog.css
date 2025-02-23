@@ -37,9 +37,7 @@
     }
 }
 @media all and (max-width:520px){
-    title-block{
-        float: inherit;
-        position: inherit;
+    #content{
         width: 100%;
         text-align: left;
     }
