@@ -30,6 +30,20 @@
         font-size: 18px;
     }
 }
+@media all and (max-width:520px){
+    #content{
+        margin: 1.5rem;
+        padding: 0;
+    }
+}
+@media all and (max-width:520px){
+    title-block{
+        float: inherit;
+        position: inherit;
+        width: 100%;
+        text-align: left;
+    }
+}
 body{
     font-family:'Crimson Pro';
     margin-left: auto;
