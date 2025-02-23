@@ -13,7 +13,7 @@
         font-size: 18px;
     }
 }
-@media all and (max-width:520px){
+@media (min-aspect-ratio:2/3) and (max-width:520px){
     #content{
         margin: 1.5rem;
         padding: 0;
