@@ -16,13 +16,15 @@ body{
     max-width: 940px;
     text-rendering: optimizeLegibility;
     padding: 0 15px;
-    font-family: 'Inter';
+    font-family: 'Catamaran';
 }
 
 h1{
     padding: 0 calc(max(1rem, 5px));
     padding-bottom: 4rem;
-    font-weight: 800;
+    font-weight: 900;
+    font-weight: bolder;
+    font-family: 'Crimson Pro';
     font-size: 105%;
 }
 
@@ -53,7 +55,6 @@ h1{
     font-size: calc(max(5rem, 28px));
     font-weight: 200;
     line-height: 1.05;
-    font-family: 'Inter';
     letter-spacing: -0.02em;
     margin-top: 4rem;
     border-bottom: 1px solid #000;
@@ -79,7 +80,7 @@ p, li {
 .sig{
     display: block;
     text-align: right;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     margin-right: 0.5rem;
     font-size: 18px;
 }
