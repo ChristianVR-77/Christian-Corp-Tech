@@ -16,7 +16,7 @@ body{
     max-width: 940px;
     text-rendering: optimizeLegibility;
     padding: 0 15px;
-    font-family: 'Catamaran';
+    font-family: 'Inter';
 }
 
 h1{
@@ -24,7 +24,7 @@ h1{
     padding-bottom: 4rem;
     font-weight: 900;
     font-weight: bolder;
-    font-family: 'Crimson Pro';
+    font-family: 'Inter';
     font-size: 105%;
 }
 
